@@ -702,6 +702,14 @@ video {
   padding-top: 5.375rem;
 }
 
+.pb-\[13\.125rem\]{
+  padding-bottom: 13.125rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -965,6 +973,10 @@ video {
   .lg\:py-\[18px\]{
     padding-top: 18px;
     padding-bottom: 18px;
+  }
+
+  .lg\:pb-\[13\.125rem\]{
+    padding-bottom: 13.125rem;
   }
 
   .lg\:text-8xl{
