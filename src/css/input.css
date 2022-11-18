@@ -30,6 +30,14 @@
   .two-row-section .image-box {
     @apply mb-6;
   }
+  .filter-main {
+    filter: invert(62%) sepia(71%) saturate(3564%) hue-rotate(337deg)
+      brightness(101%) contrast(101%);
+  }
+  .filter-white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(140deg)
+      brightness(107%) contrast(101%);
+  }
 }
 /*
   * =================
