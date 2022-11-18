@@ -603,6 +603,10 @@ video {
   color: rgb(255 114 53 / var(--tw-text-opacity));
 }
 
+.two-row-section .image-box{
+  margin-bottom: 1.5rem;
+}
+
 .absolute{
   position: absolute;
 }
@@ -653,10 +657,6 @@ video {
 
 .mb-\[66px\]{
   margin-bottom: 66px;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .flex{
@@ -801,6 +801,10 @@ video {
 
 .pt-\[5\.375rem\]{
   padding-top: 5.375rem;
+}
+
+.pb-32{
+  padding-bottom: 8rem;
 }
 
 .text-center{

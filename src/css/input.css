@@ -27,6 +27,9 @@
   .two-row-section .text-box a {
     @apply text-primary leading-[100%] text-2xl font-normal flex items-center gap-3 justify-center;
   }
+  .two-row-section .image-box {
+    @apply mb-6;
+  }
 }
 /*
   * =================
