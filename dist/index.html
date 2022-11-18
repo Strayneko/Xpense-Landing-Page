@@ -11,14 +11,98 @@
 
 <body>
     <!-- Header section start -->
-    <header id="header">
-        <div class="container py-1flex justify-end items-center">
-            <div class="navbar-brand">
-                <img src="images/icons/logo-xpense.png" alt="Xpense Logo">
+    <header id="header" class="lg:mt-14 mt-2 transition-all mb-[106px]">
+
+        <div class="container py-1 flex items-center justify-between relative">
+            <div class="navbar-brand place-self-start lg:place-self-auto">
+                <a href="#">
+                    <img src="images/icons/logo-xpense.png" alt="Xpense Logo">
+                </a>
+            </div>
+
+            <button class="absolute right-4 top-0 lg:hidden" type="button" id="hamburger">
+                <span class="hamburger-line transition ease-in-out duration-300 origin-top-left"></span>
+                <span class="hamburger-line transition ease-in-out duration-300"></span>
+                <span class="hamburger-line transition ease-in-out duration-300 origin-bottom-left"></span>
+            </button>
+
+
+            <nav
+                class="navbar-menu hidden absolute  right-4 top-10 self-start bg-white py-6 px-4 rounded-lg shadow-lg lg:flex lg:static lg:shadow-none ">
+                <ul class="flex gap-x-10 flex-col gap-y-2 text-center lg:flex-row lg:gap-y-0">
+                    <li>
+                        <a href="" class="active">
+                            Features
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Feedback
+                        </a>
+                    </li>
+                    <li class="mt-4 lg:mt-0">
+                        <a href=""
+                            class="py-3 px-4 border leading-[95%] font-normal text-lg border-primary !text-primary rounded-lg transition-colors hover:!text-white  hover:bg-primary  lg:hidden">Request
+                            a
+                            demo</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="action hidden lg:block">
+                <a href=""
+                    class="py-[0.875rem] px-[18px]  leading-[95%] font-normal text-lg  border border-primary text-primary rounded-lg transition-colors hover:text-white  hover:bg-primary ">Request
+                    a
+                    demo</a>
             </div>
         </div>
     </header>
     <!-- Header section end -->
+
+    <!-- hero section start -->
+    <section id="hero">
+        <div class="container flex flex-col-reverse  md:flex-row ">
+            <div class="left text-center md:text-left lg:w-2/3 ">
+                <h1 class="font-bold text-3xl  leading-[100%] mb-5 text-dark sm:text-4xl md:text-5xl  lg:text-8xl">Track
+                    your
+                    Expenses to
+                    Save Money
+                </h1>
+                <p class="text-muted font-normal  mb-4  text-xl leading-7 md:text-2xl  md:leading-[38px]">Helps
+                    you to
+                    organize
+                    your
+                    income and
+                    expenses </p>
+                <div
+                    class="demo-btn flex gap-x-6  flex-col gap-y-4 sm:items-center  lg:flex-row md:items-start  lg:mb-10 ">
+                    <a href=""
+                        class="text-lg px-4 py-3 bg-primary rounded-lg text-white md:text-2xl md:px-5 md:py-4  lg:leading-[38px] lg:px-6 lg:py-[18px]">Try
+                        Free
+                        Demo</a>
+                    <span class="text-muted text-lg leading-7  md:text-2xl md:leading-[38px]">— Web, iOs and
+                        Android</span>
+                </div>
+            </div>
+            <div class="right mb-10 lg:mb-0 grow ">
+                <img src="images/Illustration.png" alt="Illustration" class="w-full">
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+
+    <!-- Main javascript -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

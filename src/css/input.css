@@ -3,3 +3,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+  * =================
+  * Navbar components
+  * ==================
+  */
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-slate-500;
+}
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+.hamburger-active > span:last-child {
+  @apply -rotate-45;
+}
+.navbar-menu ul li a {
+  @apply font-normal leading-[95%] text-lg text-muted;
+}
+
+.navbar-menu ul li a.active {
+  @apply text-dark;
+}
