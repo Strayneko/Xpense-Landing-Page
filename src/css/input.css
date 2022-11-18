@@ -12,19 +12,19 @@
   .two-row-section {
     @apply container flex;
   }
-  .two-row-section .left {
+  .two-row-section .text-box {
     @apply text-center;
   }
-  .two-row-section .left span {
+  .two-row-section .text-box span {
     @apply uppercase text-muted font-normal text-lg leading-8 mb-5 inline-block;
   }
-  .two-row-section .left h2 {
+  .two-row-section .text-box h2 {
     @apply font-bold text-3xl text-dark leading-[100%] mb-5;
   }
-  .two-row-section .left p {
+  .two-row-section .text-box p {
     @apply text-muted font-normal text-xl leading-8 mb-5;
   }
-  .two-row-section .left a {
+  .two-row-section .text-box a {
     @apply text-primary leading-[100%] text-2xl font-normal flex items-center gap-3 justify-center;
   }
 }
