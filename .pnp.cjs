@@ -28,9 +28,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@fortawesome/fontawesome-free", "npm:6.2.1"],\
             ["tailwindcss", "virtual:0106328c3f6a6829471d75d68046257830ddd9520cb101fa8cc1243c912f0f8026cefbc4bdc6dcb1a94a318e040d5a7dff26bcd69bc9b68e172ecdf4cdab2f20#npm:3.2.4"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@fortawesome/fontawesome-free", [\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-free-npm-6.2.1-bb3df7ce48/node_modules/@fortawesome/fontawesome-free/",\
+          "packageDependencies": [\
+            ["@fortawesome/fontawesome-free", "npm:6.2.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@gar/promisify", [\
@@ -109,6 +119,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["Xpense", "workspace:."],\
+            ["@fortawesome/fontawesome-free", "npm:6.2.1"],\
             ["tailwindcss", "virtual:0106328c3f6a6829471d75d68046257830ddd9520cb101fa8cc1243c912f0f8026cefbc4bdc6dcb1a94a318e040d5a7dff26bcd69bc9b68e172ecdf4cdab2f20#npm:3.2.4"]\
           ],\
           "linkType": "SOFT"\
