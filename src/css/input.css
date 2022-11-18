@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
-
+@import "@fortawesome/fontawesome-free/css/all";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /*
   * =================
   * Navbar components
