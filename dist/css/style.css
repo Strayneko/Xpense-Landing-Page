@@ -790,6 +790,14 @@ video {
   background-image: url('../images/bg-overview-section.png');
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
