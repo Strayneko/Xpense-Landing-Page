@@ -813,6 +813,10 @@ video {
   background-image: url('../images/bg-overview-section.png');
 }
 
+.bg-\[url\(\'\.\.\/images\/bg-demo\.png\'\)\]{
+  background-image: url('../images/bg-demo.png');
+}
+
 .bg-cover{
   background-size: cover;
 }
