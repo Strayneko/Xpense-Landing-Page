@@ -551,6 +551,11 @@ video {
   top: 2.5rem;
 }
 
+.mx-\[10\.3125rem\]{
+  margin-left: 10.3125rem;
+  margin-right: 10.3125rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -573,6 +578,10 @@ video {
 
 .mb-10{
   margin-bottom: 2.5rem;
+}
+
+.mt-\[5\.375rem\]{
+  margin-top: 5.375rem;
 }
 
 .flex{
@@ -696,6 +705,10 @@ video {
 .px-\[18px\]{
   padding-left: 18px;
   padding-right: 18px;
+}
+
+.pt-\[5\.375rem\]{
+  padding-top: 5.375rem;
 }
 
 .text-center{
