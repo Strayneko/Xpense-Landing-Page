@@ -38,7 +38,19 @@
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(140deg)
       brightness(107%) contrast(101%);
   }
+  /*
+  * ===============
+  * Footer css
+  * ===============
+  */
+  .footer-menu h4 {
+    @apply uppercase leading-[38px] text-2xl font-medium text-dark mb-6 inline-block;
+  }
+  .footer-menu ul {
+    @apply gap-2;
+  }
 }
+
 /*
   * =================
   * Navbar components
