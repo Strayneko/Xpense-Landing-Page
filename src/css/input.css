@@ -38,6 +38,37 @@
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(140deg)
       brightness(107%) contrast(101%);
   }
+
+  /*
+  * ===============
+  * Pricing css
+  * ===============
+  */
+  .pricing-box {
+    @apply pt-10 pb-[60px] px-5 ring-1 w-full ring-[#F5F5F5] rounded-xl  hover:shadow-lg sm:pl-10 md:pr-10 md:pr-[114px] sm:w-auto;
+  }
+  .pricing-box h3 {
+    @apply text-dark  font-semibold text-xl leading-10 sm:text-3xl;
+  }
+  .pricing-box ul {
+    @apply flex flex-col gap-2 mb-6;
+  }
+  .pricing-box ul li {
+    @apply text-dark text-base leading-7 font-normal sm:text-lg;
+  }
+  .pricing-box strong {
+    @apply leading-9 text-xl font-semibold block mb-2 sm:text-2xl;
+  }
+  .pricing-box strong span {
+    @apply text-muted font-light  leading-8 text-lg sm:text-xl;
+  }
+  .pricing-box a {
+    @apply px-4 py-2 w-full inline-block text-center text-primary border border-primary rounded-lg sm:py-3 sm:px-6 sm:text-left sm:inline;
+  }
+  .pricing-box a img {
+    @apply inline-block filter-main;
+  }
+
   /*
   * ===============
   * Footer css

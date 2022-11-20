@@ -16,7 +16,7 @@
 
 <body>
     <!-- Header section start -->
-    <header id="header" class="lg:mt-14 mt-2 transition-all mb-[106px]">
+    <header id="header" class="lg:mt-14 mt-2 transition-all absolute w-full">
 
         <div class="container py-1 flex items-center justify-between relative">
             <div class="navbar-brand place-self-start lg:place-self-auto">
@@ -74,7 +74,7 @@
     <!-- Header section end -->
 
     <!-- hero section start -->
-    <section id="hero">
+    <section id="hero" class="pt-24 md:pt-[186px]">
         <div class="container flex flex-col-reverse pb-24 md:flex-row lg:pb-[13.125rem]">
             <div class="left text-center md:text-left lg:w-2/3 ">
                 <h1 class="font-bold text-3xl  leading-[100%] mb-5 text-dark sm:text-4xl md:text-5xl  lg:text-8xl">Track
@@ -89,11 +89,13 @@
                     income and
                     expenses </p>
                 <div
-                    class="demo-btn flex gap-x-6  flex-col gap-y-4 sm:items-center  lg:flex-row md:items-start  lg:mb-10 ">
+                    class="demo-btn flex gap-x-6  flex-col gap-y-4 sm:items-center md:items-start  lg:flex-row lg:items-center  lg:mb-10 ">
                     <a href=""
                         class="text-lg px-4 py-3 bg-primary rounded-lg text-white md:text-2xl md:px-5 md:py-4  lg:leading-[38px] lg:px-6 lg:py-[18px]">Try
                         Free
-                        Demo</a>
+                        Demo
+                        <i class="fa-solid fa-angle-down pl-[10px]"></i>
+                    </a>
                     <span class="text-muted text-lg leading-7  md:text-2xl md:leading-[38px]">— Web, iOs and
                         Android</span>
                 </div>
@@ -116,12 +118,23 @@
     <!-- Clients section start -->
     <section id="clients" class="mb-[66px]">
         <div class="container">
-            <div class="clients flex flex-wrap gap-20 items-center justify-between md:gap-24">
-                <img src="images/icons/facebook.png" alt="Facebook logo">
-                <img src="images/icons/google.png" alt="Google logo">
-                <img src="images/icons/coca-cola.png" alt="Coca cola">
-                <img src="images/icons/linkedin.png" alt="LinkedIn">
-                <img src="images/icons/samsung.png" alt="Samsung">
+            <div
+                class="clients gap-10 flex items-center  flex-col sm:flex-row sm:flex-wrap sm:justify-center md:gap-24">
+                <a href="https://facebook.com" target="_blank" class="">
+                    <img src="images/icons/facebook.png" alt="Facebook logo">
+                </a>
+                <a href="https://google.com" target="_blank" class="">
+                    <img src="images/icons/google.png" alt="Google logo">
+                </a>
+                <a href="https://www.coca-cola.com/" target="_blank">
+                    <img src="images/icons/coca-cola.png" alt="Coca cola">
+                </a>
+                <a href="https://linkedin.com/" target="_blank">
+                    <img src="images/icons/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.samsung.com/" target="_blank">
+                    <img src="images/icons/samsung.png" alt="Samsung">
+                </a>
 
             </div>
         </div>
@@ -265,93 +278,82 @@
         </div>
         <div class="container flex items-center flex-col gap-5">
 
-            <div
-                class="pricing-box  pt-10 pb-[60px] pl-10 pr-[114px] ring-1 ring-[#F5F5F5] rounded-xl group hover:shadow-lg">
+            <div class="group pricing-box">
                 <img src="images/icons/bag.png" alt="Bag icon" class="mb-5">
-                <h3 class="text-dark  font-semibold text-3xl leading-10">Starter Plan</h3>
-                <ul class="flex flex-col items center gap-2 mb-6">
-                    <li class="text-dark text-lg leading-7 font-normal">
+                <h3 class="">Starter Plan</h3>
+                <ul class="">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Store unlimited data
                     </li>
-                    <li class="text-dark text-lg leading-7 font-normal">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Export to pdf, xls, csv
                     </li>
-                    <li class="text-dark text-lg leading-7 font-normal">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Cloud server support
                     </li>
                 </ul>
-                <strong class="text-2xl leading-9 font-semibold block mb-2">$9.99/<span
-                        class="text-muted font-light text-xl leading-8">year</span></strong>
+                <strong class=" ">$9.99/<span class="year">year</span></strong>
                 <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
-                <a href=""
-                    class="py-3 px-6 text-primary border border-primary rounded-lg group-hover:text-white group-hover:bg-primary ">
+                <a href="" class="group-hover:text-white group-hover:bg-primary">
                     Get this
-                    <img src="images/icons/arrow-right.png" alt="Arrow right"
-                        class="inline-block filter-main group-hover:filter-white">
+                    <img src="images/icons/arrow-right.png" alt="Arrow right" class="group-hover:filter-white">
                 </a>
             </div>
 
-
-            <div
-                class="pricing-box  pt-10 pb-[60px] pl-10 pr-[114px] ring-1 ring-[#F5F5F5] rounded-xl group hover:shadow-lg">
+            <div class="group pricing-box">
                 <img src="images/icons/gift-box.png" alt="Gift box icon" class="mb-5">
-                <h3 class="text-dark  font-semibold text-3xl leading-10">Silver Plan</h3>
-                <ul class="flex flex-col items center gap-2 mb-6">
-                    <li class="text-dark text-lg leading-7 font-normal">
+                <h3 class="">Silver Plan</h3>
+                <ul class="">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Store unlimited data
                     </li>
-                    <li class="text-dark text-lg leading-7 font-normal">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Export to pdf, xls, csv
                     </li>
-                    <li class="text-dark text-lg leading-7 font-normal">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Cloud server support
                     </li>
                 </ul>
-                <strong class="text-2xl leading-9 font-semibold block mb-2">$19.99/<span
-                        class="text-muted font-light text-xl leading-8">year</span></strong>
+                <strong class=" ">$19.99/<span class="year">year</span></strong>
                 <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
-                <a href=""
-                    class="py-3 px-6 text-primary border border-primary rounded-lg group-hover:text-white group-hover:bg-primary ">
+                <a href="" class="group-hover:text-white group-hover:bg-primary">
                     Get this
-                    <img src="images/icons/arrow-right.png" alt="Arrow right"
-                        class="inline-block filter-main group-hover:filter-white">
+                    <img src="images/icons/arrow-right.png" alt="Arrow right" class="group-hover:filter-white">
                 </a>
             </div>
 
-            <div
-                class="pricing-box  pt-10 pb-[60px] pl-10 pr-[114px] ring-1 ring-[#F5F5F5] rounded-xl group hover:shadow-lg">
-                <img src="images/icons/ac.png" alt="Ac icon" class="mb-5">
-                <h3 class="text-dark  font-semibold text-3xl leading-10">Diamond Plan</h3>
-                <ul class="flex flex-col items center gap-2 mb-6">
-                    <li class="text-dark text-lg leading-7 font-normal">
+            <div class="group pricing-box">
+                <img src="images/icons/ac.png" alt="ac icon" class="mb-5">
+                <h3 class="">Diamond Plan</h3>
+                <ul class="">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Store unlimited data
                     </li>
-                    <li class="text-dark text-lg leading-7 font-normal">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Export to pdf, xls, csv
                     </li>
-                    <li class="text-dark text-lg leading-7 font-normal">
+                    <li class="">
                         <i class="fa-solid fa-check text-muted"></i>
                         Cloud server support
                     </li>
                 </ul>
-                <strong class="text-2xl leading-9 font-semibold block mb-2">$29.99/<span
-                        class="text-muted font-light text-xl leading-8">year</span></strong>
+                <strong class=" ">$29.99/<span class="year">year</span></strong>
                 <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
-                <a href=""
-                    class="py-3 px-6 text-primary border border-primary rounded-lg group-hover:text-white group-hover:bg-primary ">
+                <a href="" class="group-hover:text-white group-hover:bg-primary">
                     Get this
-                    <img src="images/icons/arrow-right.png" alt="Arrow right"
-                        class="inline-block filter-main group-hover:filter-white">
+                    <img src="images/icons/arrow-right.png" alt="Arrow right" class="group-hover:filter-white">
                 </a>
             </div>
+
+
 
 
         </div>
@@ -449,11 +451,14 @@
                         <h4>newsletter</h4>
                         <p class="text-muted font-normal text-xl leading-8 mb-[18px] block ">Over 25000 people
                             have subscribed</p>
-                        <div class="input-group  border border-muted rounded-lg mb-[10px]">
+                        <div
+                            class="input-group border-none  rounded-lg mb-[10px] flex flex-col sm:flex-row sm:border sm:border-muted">
                             <input type="text" placeholder="Enter your email"
-                                class="font-normal text-lg leading-7 text-dark py-4 pl-[22px] placeholder:font-normal placeholder:text-lg placeholder:leading-7 placeholder:text-dark focus:border-none focus:outline-none">
+                                class="font-normal text-lg leading-7 text-dark py-4 pl-[22px] border border-muted/20 rounded-lg placeholder:font-normal placeholder:text-lg placeholder:leading-7 placeholder:text-dark focus:border-none focus:outline-none sm:border-none">
                             <button
-                                class="py-[10px] px-4 bg-primary font-semibold text-base leading-[26px] rounded-lg mr-[6px] text-white">Subscribe</button>
+                                class="py-[10px] px-4 bg-primary font-semibold text-base leading-[26px] rounded-lg mr-[6px] text-white my-[6px]">
+                                Subscribe
+                            </button>
                         </div>
                         <small class="text-muted font-normal text-sm leading-6">We don’t sell your email and
                             spam</small>

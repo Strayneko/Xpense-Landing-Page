@@ -4,28 +4,28 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: "Hind Siliguri",
+        sans: "Hind Siliguri"
       },
       colors: {
         primary: "#FF7235",
         dark: "#292830;",
-        muted: "#BDBDBD",
+        muted: "#BDBDBD"
       },
       screens: {
-        sm: "360px",
+        sm: "360px"
       },
       container: {
         center: true,
         padding: {
           DEFAULT: "2rem",
           xl: "0",
-          lg: "0",
+          lg: "0"
         },
         screens: {
-          xl: "1110px",
-        },
-      },
-    },
+          xl: "1110px"
+        }
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
