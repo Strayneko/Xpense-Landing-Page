@@ -45,10 +45,13 @@
   * ===============
   */
   .pricing-box {
-    @apply pt-10 pb-[60px] px-5 ring-1 w-full ring-[#F5F5F5] rounded-xl  hover:shadow-lg sm:pl-10 md:pr-10 md:pr-[114px] sm:w-auto;
+    @apply pt-10 pb-[60px] text-center px-5 ring-1 w-full ring-[#F5F5F5] rounded-xl hover:shadow-lg sm:pl-10 sm:pr-10 md:pr-[114px] md:w-auto md:text-left;
+  }
+  .pricing-box .plan-icon {
+    @apply mx-auto inline-block;
   }
   .pricing-box h3 {
-    @apply text-dark  font-semibold text-xl leading-10 sm:text-3xl;
+    @apply text-dark  font-semibold text-xl leading-10 mb-5 sm:text-3xl md:mb-6;
   }
   .pricing-box ul {
     @apply flex flex-col gap-2 mb-6;
