@@ -22,7 +22,7 @@
     @apply font-bold text-2xl text-dark leading-8  mb-5 sm:text-3xl sm:leading-[100%];
   }
   .two-row-section .text-box p {
-    @apply text-muted font-normal text-justify text-xl leading-8 mb-5 sm:text-center;
+    @apply text-muted font-normal text-justify text-lg leading-8 mb-5 sm:text-center;
   }
   .two-row-section .text-box a {
     @apply text-primary leading-[100%] text-2xl font-normal flex items-center gap-3 justify-center;
@@ -45,7 +45,7 @@
   * ===============
   */
   .pricing-box {
-    @apply pt-10 pb-[60px] text-center px-5 ring-1 w-full ring-[#F5F5F5] rounded-xl hover:shadow-lg sm:pl-10 sm:pr-10 md:pr-[114px] md:w-auto md:text-left;
+    @apply pt-10 pb-[60px] text-center px-5 ring-1 w-full ring-[#F5F5F5] rounded-xl hover:shadow-lg sm:pl-10 sm:pr-10 lg:pr-[114px] md:w-[45%] md:text-left;
   }
   .pricing-box .plan-icon {
     @apply mx-auto inline-block;
@@ -73,15 +73,35 @@
   }
 
   /*
+* ======================
+* Features section start
+* ======================
+*/
+  .features .feature-box {
+    @apply flex justify-center w-full   md:w-1/2 md:px-16 md:py-[62px];
+  }
+  .features .feature-box .box {
+    @apply flex flex-col items-center  w-full md:w-auto lg:w-[220px];
+  }
+  .features .feature-box .box h3 {
+    @apply font-medium text-2xl leading-[100%] text-dark mb-3 md:text-3xl;
+  }
+  .features .feature-box .box p {
+    @apply text-muted font-normal text-sm leading-6 text-justify md:text-center;
+  }
+  /*
   * ===============
   * Footer css
   * ===============
   */
   .footer-menu h4 {
-    @apply uppercase leading-[38px] text-2xl font-medium text-dark mb-6 inline-block;
+    @apply uppercase leading-[38px] mb-0 text-lg font-medium text-dark  inline-block sm:text-2xl md:mb-6;
   }
   .footer-menu ul {
     @apply gap-2;
+  }
+  .footer-menu ul li {
+    @apply font-medium text-sm leading-5 text-dark sm:text-lg;
   }
 }
 

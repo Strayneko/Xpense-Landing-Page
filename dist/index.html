@@ -219,7 +219,7 @@
         <div class="two-row-section flex-col mb-20">
 
             <div class="text-box">
-                <h2 class="!text-4xl">The Product we work with.</h2>
+                <h2 class="text-xl sm:text-2xl md:!text-4xl">The Product we work with.</h2>
             </div>
 
             <div class="text-box">
@@ -234,41 +234,45 @@
 
 
         <div class="container">
-            <div class="features">
+            <div
+                class="features flex flex-col gap-y-16 md:flex-row md:flex-wrap md:gap-y-0 md:justify-center lg:flex-nowrap">
 
-                <div class="feature-box px-16 py-[62px] flex justify-center">
-                    <div class="flex flex-col items-center w-[220px]">
+                <div class="feature-box">
+                    <div class="box">
                         <img src="images/icons/laptop.png" alt="Laptop Icon" class="mb-6">
-                        <h3 class="font-medium text-3xl leading-[100%] text-dark mb-3">Cross Platform</h3>
-                        <p class="text-muted font-normal text-sm leading-6 text-center">Elit esse cillum dolore eu
+                        <h3 class="">Cross Platform</h3>
+                        <p class="">Elit esse cillum dolore eu
                             fugiat
                             nulla pariatur
                         </p>
                     </div>
                 </div>
 
-                <div class="feature-box px-16 py-[62px] flex justify-center">
-                    <div class="flex flex-col items-center w-[220px]">
+
+
+                <div class="feature-box">
+                    <div class="box">
                         <img src="images/icons/cloud.png" alt="Cloud Icon" class="mb-6">
-                        <h3 class="font-medium text-3xl leading-[100%] text-dark mb-3">Cloud Server</h3>
-                        <p class="text-muted font-normal text-sm leading-6 text-center mb-6">Elit esse cillum dolore eu
+                        <h3 class="">Cloud Server</h3>
+                        <p class="">Elit esse cillum dolore eu
                             fugiat
                             nulla pariatur
                         </p>
-                        <a href=""><img src="images/icons/arrow-right.png" alt="Icon Right"></a>
                     </div>
                 </div>
 
-                <div class="feature-box px-16 py-[62px] flex justify-center">
-                    <div class="flex flex-col items-center w-[220px]">
+
+                <div class="feature-box">
+                    <div class="box">
                         <img src="images/icons/pure-js.png" alt="Pure javascript Icon" class="mb-6">
-                        <h3 class="font-medium text-3xl leading-[100%] text-dark mb-3">Pure Javascript</h3>
-                        <p class="text-muted font-normal text-sm leading-6 text-center">Elit esse cillum dolore eu
+                        <h3 class="">Pure Javascript</h3>
+                        <p class="">Elit esse cillum dolore eu
                             fugiat
                             nulla pariatur
                         </p>
                     </div>
                 </div>
+
 
             </div>
         </div>
@@ -278,9 +282,11 @@
     <!-- Pricing section start -->
     <section id="pricing" class="py-[124px]">
         <div class="container mb-16">
-            <h2 class="font-bold text-4xl text-dark leading-[100%] text-center">Choose your flexible plan.</h2>
+            <h2 class="font-bold text-dark text-2xl leading-[100%] text-center md:text-4xl">Choose your flexible plan.
+            </h2>
         </div>
-        <div class="container flex items-center flex-col gap-5">
+        <div
+            class="container flex items-center flex-col gap-5 md:flex-row md:flex-wrap md:justify-center lg:justify-start">
 
             <div class="group pricing-box">
                 <div class="mb-5 plan-icon">
@@ -385,10 +391,12 @@
     <!-- Demo section start -->
     <section id="demo" class="bg-[url('../images/bg-demo.png')] bg-center bg-cover pt-[120px] pb-[92px]">
 
-        <h2 class="font-bold leading-[100%] text-4xl text-center text-white mb-6">20M+ downloaded from 32 diffrent
+        <h2 class="font-bold leading-[100%] text-3xl text-center text-white mb-6 lg:text-4xl">20M+ downloaded from 32
+            diffrent
             countires</h2>
         <div class="mx-auto flex justify-center mb-10 flex-col items-center">
-            <p class="font-medium leading-[100%] text-3xl text-center text-white mb-10 inline-block mx-auto ">
+            <p
+                class="font-medium leading-[100%] text-2xl text-center text-white mb-10 inline-block mx-auto lg:text-3xl">
                 Try
                 demo
                 for 7 days
@@ -414,6 +422,7 @@
                     free demo <i class="fa-solid fa-angle-down pl-[10px]"></i></a>
             </div>
 
+
             <div class="mx-auto">
                 <div class="right md:w-[456px] w-1/2 flex justify-between md:h-[322px] h-1/2 -space-x-6 ">
                     <img src="images/left-1.png" alt="" class="self-end w-full">
@@ -428,10 +437,10 @@
     <!-- footer start -->
     <footer id="footer">
 
-        <section id="footer_menu" class="mb-10 pt-20">
+        <section id="footer_menu" class="pt-5 md:pt-20 md:mb-10">
             <div class="container flex flex-col ">
 
-                <div class="footer-menu mb-6 place-self-center">
+                <div class="footer-menu mb-6 md:place-self-center">
                     <img src="images/icons/logo-xpense.png" alt="Logo Xpense">
                 </div>
 
@@ -462,12 +471,12 @@
 
                     <div class="footer-menu mx-auto">
                         <h4>newsletter</h4>
-                        <p class="text-muted font-normal text-xl leading-8 mb-[18px] block ">Over 25000 people
+                        <p class="text-muted font-normal  leading-8 mb-[18px] block sm:text-xl">Over 25000 people
                             have subscribed</p>
                         <div
                             class="input-group border-none  rounded-lg mb-[10px] flex flex-col sm:flex-row sm:border sm:border-muted">
                             <input type="text" placeholder="Enter your email"
-                                class="font-normal text-lg leading-7 text-dark py-4 pl-[22px] border border-muted/20 rounded-lg placeholder:font-normal placeholder:text-lg placeholder:leading-7 placeholder:text-dark focus:border-none focus:outline-none sm:border-none">
+                                class="font-normal text-lg leading-7 text-dark  pl-[22px] border border-muted/20 rounded-lg py-2 placeholder:font-normal placeholder:text-lg placeholder:leading-7 placeholder:text-dark focus:border-none focus:outline-none sm:border-none md:py-4">
                             <button
                                 class="py-[10px] px-4 bg-primary font-semibold text-base leading-[26px] rounded-lg mr-[6px] text-white my-[6px]">
                                 Subscribe
@@ -480,7 +489,7 @@
             </div>
         </section>
 
-        <section id="footer" class="pb-[90px] pt-5 border border-muted/20">
+        <section id="footer" class="pb-5 pt-5 border border-muted/20 mb:pb-[90px]">
             <div class="container">
                 <div class="flex flex-col gap-5 items-center">
                     <div class="">
