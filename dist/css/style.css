@@ -1572,6 +1572,10 @@ video {
     border-width: 1px;
   }
 
+  .sm\:border-solid{
+    border-style: solid;
+  }
+
   .sm\:border-none{
     border-style: none;
   }
@@ -1579,6 +1583,11 @@ video {
   .sm\:border-muted{
     --tw-border-opacity: 1;
     border-color: rgb(189 189 189 / var(--tw-border-opacity));
+  }
+
+  .sm\:border-red-500{
+    --tw-border-opacity: 1;
+    border-color: rgb(239 68 68 / var(--tw-border-opacity));
   }
 
   .sm\:text-4xl{
