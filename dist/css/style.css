@@ -1459,6 +1459,10 @@ video {
 }
 
 @media (min-width: 360px){
+  .sm\:grid{
+    display: grid;
+  }
+
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
