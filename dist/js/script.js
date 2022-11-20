@@ -1,3 +1,5 @@
+const el = el => document.querySelector(el);
+const elClass = e => el(e).classList;
 /*
        * ===============
        * Hamburger button
@@ -8,8 +10,14 @@ hamburgerBtn.addEventListener("click", () => {
   hamburgerBtn.classList.toggle("hamburger-active");
   document.querySelector(".navbar-menu").classList.toggle("hidden");
 });
-const hamburgerBtnFooter = document.getElementById("hamburger-footer");
-hamburgerBtnFooter.addEventListener("click", () => {
-  hamburgerBtnFooter.classList.toggle("hamburger-active");
-  document.getElementById("footer-menu").classList.toggle("hidden");
-});
+
+/*
+* ===============
+* Navbar scroll
+* ===============
+*/
+window.onscroll = () => {
+  window.pageYOffset > el("#hero").offsetTop
+    ? elClass("#header").add("navbar-fixed")
+    : elClass("#header").remove("navbar-fixed");
+};
