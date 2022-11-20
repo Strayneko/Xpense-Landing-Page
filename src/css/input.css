@@ -45,7 +45,7 @@
   * ===============
   */
   .pricing-box {
-    @apply pt-10 pb-[60px] text-center px-5 ring-1 w-full ring-[#F5F5F5] rounded-xl hover:shadow-lg sm:pl-10 sm:pr-10 lg:pr-[114px] md:w-[45%] md:text-left;
+    @apply pt-10 pb-[60px] text-center px-5 ring-1 w-full ring-[#F5F5F5] rounded-xl hover:shadow-lg sm:pl-10 sm:pr-10 lg:pr-[114px] md:w-[45%] md:text-left lg:w-auto;
   }
   .pricing-box .plan-icon {
     @apply mx-auto inline-block;
